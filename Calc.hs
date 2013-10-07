@@ -11,3 +11,7 @@ calc (Add a b) = calc a + calc b
 calc (Mul a b) = calc a * calc b
 calc (Div a b) = calc a / calc b
 calc (Min a b) = calc a - calc b
+
+-- Let's add a comment saying that I'd like to
+-- add an expression matcher in the future,
+-- and then add this to calc branch, but not master..?
